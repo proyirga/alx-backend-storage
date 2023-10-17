@@ -1,6 +1,5 @@
 // Update
 db.school.findAndModify({
     query: { name: "Holberton school"},
-    update: { $set: { address: 972 }},
-    new: true
+    update: { $inc: { address: 972 }},
 })
