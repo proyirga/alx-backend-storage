@@ -1,0 +1,2 @@
+// Count docs in a coll
+db.school.count()
